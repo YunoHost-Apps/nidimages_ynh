@@ -5,7 +5,7 @@ id = "nidimages"
 name = "Nidimages"
 description.en = "A photo sharing web app to keep your family and friends connected with your adventures and memories"
 description.fr = "Une application web de partage des photos permettant à la famille et aux ami.e.s de suivre tes aventures"
-version = "1.0~ynh1"
+version = "1.0~ynh2"
 maintainers = ["sitegui"]
 
 [upstream]
