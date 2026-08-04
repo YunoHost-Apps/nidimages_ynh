@@ -645,10 +645,10 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    amd64.url = "https://git.sitegui.dev/sitegui/nidimages/releases/download/v1.3/nidimages-x86_64-unknown-linux-gnu.zip"
-    amd64.sha256 = "f0752b2eeccf86ac227e3b600993a1365696942ebf8eaff5d2f25c493fbcb339"
-    arm64.url = "https://git.sitegui.dev/sitegui/nidimages/releases/download/v1.3/nidimages-aarch64-unknown-linux-gnu.zip"
-    arm64.sha256 = "12c11ef92e8c9aed872b91625c56fdd24a7618719fdeb64952661eb12dd47810"
+    amd64.url = "https://git.sitegui.dev/sitegui/nidimages/releases/download/v1.3/nidimages-x86_64-unknown-linux-musl.zip"
+    amd64.sha256 = "58f99c6b08835aa632050821a726fa69afe13f8e36426a46dad2f6442a3bc4f1"
+    arm64.url = "https://git.sitegui.dev/sitegui/nidimages/releases/download/v1.3/nidimages-aarch64-unknown-linux-musl.zip"
+    arm64.sha256 = "5f9a9ec8f74cb5d5072a9c904ff85fdb65c9ebf14d0ef5f0f5bff6628a780451"
     in_subdir = false
     autoupdate.strategy = "latest_forgejo_release"
     autoupdate.asset.amd64 = ".*-x86_64-unknown-linux-gnu\\.zip"
