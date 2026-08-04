@@ -666,4 +666,4 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "ffmpeg, libimage-exiftool-perlr"
+    packages = "ffmpeg, libimage-exiftool-perl"
