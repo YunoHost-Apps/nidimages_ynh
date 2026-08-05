@@ -15,21 +15,11 @@ ynh_script_progression "Stopping $app's systemd service..."
 ynh_systemctl --service="$app" --action="stop"
 
 #=================================================
-# ENSURE DOWNWARD COMPATIBILITY
-#=================================================
-ynh_script_progression "Ensuring downward compatibility..."
-
-ynh_app_setting_set_default --key=php_upload_max_filesize --value=50M
-ynh_app_setting_set_default --key=php_post_max_size --value=50M
-
-#=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
 ynh_script_progression "Upgrading source files..."
 
 ynh_setup_source --dest_dir="$install_dir" --full_replace --keep=".env"
-
-chown -R "$app:www-data" "$install_dir"
 
 #=================================================
 # UPDATE A CONFIG FILE
@@ -37,8 +27,6 @@ chown -R "$app:www-data" "$install_dir"
 ynh_script_progression "Updating $app's configuration files..."
 
 ynh_config_add --template=".env" --destination="$install_dir/.env"
-chmod 400 "$install_dir/.env"
-chown "$app:$app" "$install_dir/.env"
 
 #=================================================
 # REAPPLY SYSTEM CONFIGURATION
@@ -49,7 +37,7 @@ ynh_config_add_nginx
 
 ynh_config_add_systemd
 
-yunohost service add "$app" --description="A photo sharing web app to keep your family and friends connected with your adventures and memories" --log="/var/log/$app/$app.log"
+yunohost service add "$app" --description="Photo sharing web app" --log="/var/log/$app/$app.log"
 
 ynh_config_add_logrotate
 
