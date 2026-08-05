@@ -8,7 +8,7 @@ It shall NOT be edited by hand.
   Nidimages, packaged for YunoHost
 </h1>
 
-A photo sharing web app to keep your family and friends connected with your adventures and memories
+Photo sharing web app to keep your family and friends connected with your adventures and memories
 
 [![App Demo](https://img.shields.io/badge/App_Demo-blue?style=for-the-badge)](https://demo.nidimages.sitegui.dev/)
 [![Version: 1.0~ynh2](https://img.shields.io/badge/Version-1.0~ynh2-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/nidimages/)
