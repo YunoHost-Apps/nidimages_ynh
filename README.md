@@ -8,7 +8,7 @@ It shall NOT be edited by hand.
   Nidimages, packaged for YunoHost
 </h1>
 
-A photo sharing web app to keep your family and friends connected with your adventures and memories
+Photo sharing web app to keep your family and friends connected with your adventures and memories
 
 [![App Demo](https://img.shields.io/badge/App_Demo-blue?style=for-the-badge)](https://demo.nidimages.sitegui.dev/)
 [![Version: 1.0~ynh2](https://img.shields.io/badge/Version-1.0~ynh2-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/nidimages/)
@@ -39,11 +39,6 @@ sudo yunohost app install https://github.com/YunoHost-Apps/nidimages_ynh/tree/te
 sudo yunohost app upgrade nidimages -u https://github.com/YunoHost-Apps/nidimages_ynh/tree/testing
 ```
 
-You can also switch to the testing branch to update from testing by default (as same as for APT when you chose to use a testing repos) with this command:
-```bash
-sudo yunohost app setting nidimages upgrade_channel -v testing
-```
-
 ### 📚 App packaging documentation
 
-Please see <https://doc.yunohost.org/dev/packaging/> for more information.
+Please see <https://doc.yunohost.org/packaging_apps> for more information.

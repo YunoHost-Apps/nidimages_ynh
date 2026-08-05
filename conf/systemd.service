@@ -1,5 +1,5 @@
 [Unit]
-Description=A photo sharing web app to keep your family and friends connected with your adventures and memories
+Description=Photo sharing web app
 After=network.target
 
 [Service]
