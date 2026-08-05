@@ -26,7 +26,7 @@ A photo sharing web app to keep your family and friends connected with your adve
 
 [![Automatic tests level](https://apps.yunohost.org/badge/cilevel/nidimages)](https://ci-apps.yunohost.org/ci/apps/nidimages/)
 
-🛠️ Upstream Nidimages repository: <https://github.com/YunoHost-Apps/nidimages_ynh>
+🛠️ Upstream Nidimages repository: <https://git.sitegui.dev/sitegui/nidimages>
 
 Pull request are welcome and should target the [`testing` branch](https://github.com/YunoHost-Apps/nidimages_ynh/tree/testing).
 
