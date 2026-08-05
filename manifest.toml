@@ -11,7 +11,7 @@ maintainers = ["sitegui"]
 [upstream]
 license = "AGPL-3.0-only"
 demo = "https://demo.nidimages.sitegui.dev/"
-code = "https://github.com/YunoHost-Apps/nidimages_ynh"
+code = "https://git.sitegui.dev/sitegui/nidimages"
 
 [integration]
 yunohost = ">= 12.1.17"
