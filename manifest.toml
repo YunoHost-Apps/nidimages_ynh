@@ -46,8 +46,8 @@ ram.runtime = "50M"
     arm64.sha256 = "c405189a57d6cfe891dcbe6f4c9f9eb3d497f2adb6c44750f92430e075f29cc2"
     in_subdir = false
     autoupdate.strategy = "latest_forgejo_release"
-    autoupdate.asset.amd64 = ".*-x86_64-unknown-linux-gnu\\.zip"
-    autoupdate.asset.arm64 = ".*-aarch64-unknown-linux-gnu\\.zip"
+    autoupdate.asset.amd64 = "nidimages-x86_64-unknown-linux-musl\\.zip"
+    autoupdate.asset.arm64 = "nidimages-aarch64-unknown-linux-musl\\.zip"
 
     [resources.system_user]
     allow_email = true
