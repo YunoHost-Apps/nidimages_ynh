@@ -6,7 +6,7 @@ name = "Nidimages"
 description.en = "Photo sharing web app to keep your family and friends connected with your adventures and memories"
 description.fr = "Application web de partage des photos permettant à la famille et aux ami.e.s de suivre tes aventures"
 
-version = "1.4~ynh1"
+version = "1.5~ynh1"
 
 maintainers = ["sitegui"]
 
@@ -40,10 +40,10 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    amd64.url = "https://git.sitegui.dev/sitegui/nidimages/releases/download/v1.4/nidimages-x86_64-unknown-linux-musl.zip"
-    amd64.sha256 = "70ecac7bca792f36f157b52f2dff6e152b7f5cc5888b794ac99ca0b39a4b03e9"
-    arm64.url = "https://git.sitegui.dev/sitegui/nidimages/releases/download/v1.4/nidimages-aarch64-unknown-linux-musl.zip"
-    arm64.sha256 = "2ff5fb8a4299675782748e7947b4c58b2bf4ddf7ee0f3a0c5315bfb12ee6d18b"
+    amd64.url = "https://git.sitegui.dev/sitegui/nidimages/releases/download/v1.5/nidimages-x86_64-unknown-linux-musl.zip"
+    amd64.sha256 = "5a5b3b3d7093575193133dc16f302dad05e45f8e9ec5b6dd197a2130d55a0853"
+    arm64.url = "https://git.sitegui.dev/sitegui/nidimages/releases/download/v1.5/nidimages-aarch64-unknown-linux-musl.zip"
+    arm64.sha256 = "57c7339acbeb2e5567d9ddf0a26586db3ddd7104a85094f3e242d4f8f6604888"
     in_subdir = false
     autoupdate.strategy = "latest_forgejo_release"
     autoupdate.asset.amd64 = "nidimages-x86_64-unknown-linux-musl\\.zip"
