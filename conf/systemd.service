@@ -1,5 +1,5 @@
 [Unit]
-Description=Photo sharing web app
+Description=Nidimages: photo sharing web app
 After=network.target
 
 [Service]
